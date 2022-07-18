@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: auto;
+}
+.sircle{
+    position: absolute;
+    width: 679px;
+    height: 679px;
+    left: calc(50% - 679px/2 - 601.5px);
+    top: -324px;
+    background: rgba(142, 173, 213, 0.24);
+    filter: blur(306px);
+}
+.container{
+    margin-top: 46px;
+    width: 90%;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav h1{
+    height: 100%;
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #272D38;
+    margin: 0;
+}
+.nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    padding: 0 22px;
+}
+.nav ul li:last-child{
+    padding-right: 0px;
+}
+.nav a{
+    color: black;
+}
+.hero-section{
+    margin-top: 30px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-section .left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+.hero-section .img{
+    height: 100%;
+    width: 50%;
+}
+.hero-section .left h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #272D38;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hero-section .left span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+    text-align: start;
+}
+.hero-section .left button{
+    width: 167px;
+    height: 48px;
+    background: #8EADD5;
+    border-radius: 8px; 
+    color: white;
+}
+.hero-section img{
+    height: 100%;
+}
+.companies-sector{
+    position: relative;
+    width: 100%;
+    height: 118px;
+    margin: auto;
+    margin-top: 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.companies-sector .row{
+    width: 100%;
+    margin: 0%;
+}
+.companies-sector span{
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #667085;
+    text-align: center;
+}
+.companies-sector .row:nth-child(2){
+    height: 86px;
+    background: #F6F6F6;
+    border-radius: 8px;
+    padding: 24px;
+}
+.logo-area{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.logo-area img{
+    height: 100%;
+}
+.branding,.custome-section,.contact-section{
+    margin-top: 136px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.branding .img,.custome-section .img,.contact-section .img{
+    width:50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+}
+.branding .right,.custome-section .left,.contact-section .right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 97px;
+    padding-right: 0;
+}
+.branding .right h1,.custome-section .left h1,.contact-section .right h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #272D38;
+}
+.branding .right span,.custome-section .left span,.contact-section .right span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+}
+.next-btn{
+    width: 22.23px;
+    height: 0px;
+    left: 817.31px;
+    top: 1386px;
+    border: 2px solid #272D38;
+}
+.custome-section .img{
+    justify-content: end;
+}
+.custome-section .left{
+    padding-left: 0;
+    padding-right: 97px;
+}
+/* contact-section */
+.contact-section{
+    background: #F6F6F6;
+    border-radius: 20px;
+}
+/* testimonial */
+.testimonial-section{
+    width: 100%;
+    height: 515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.testimonial-section span:nth-child(1){
+    width: 100%;
+    height: 24px;
+    text-align: center;
+}
+.testimonial-section span:nth-child(2){
+    padding: 0 350px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #272D38;
+}
+.testimonial-section span:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+}
+.testimonial{
+    width: 345px;
+    height: 334px;
+    left: 188px;
+    top: 2385px;
+    background: #F6F6F6;
+    border-radius: 20px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.testimonial .img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.testimonial .img img{
+    width: 130px;
+}
+.testimonial .name{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+}
+.testimonial .info{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #272D38;
+}
+footer{
+    margin-top: 157px;
+    height: 443px;
+    width: 100%;
+    background: #F6F6F6;
+    padding: 105px 183px;
+}
+footer .col-3{
+    display: flex;
+    flex-direction: column;
+}
+footer .col-3 span{
+    margin: 12px 0;
+}
+footer .col-3 span:nth-child(1){
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-bottom: 32px;
+}
+footer .row:nth-child(2){
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.menu-btn{
+    display: none;
+}
+
+
+
+
+/* media */
+@media (max-width:572px){
+.nav ul{
+    display: none;
+}
+.nav h1{
+    font-weight: 700;
+    font-size: 14px;
+}
+.nav .menu-btn{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.branding,.hero-section,.custome-section,.contact-section{
+    flex-direction: column; 
+    height: auto;
+    margin-top: 101px;
+}
+.branding .img,.hero-section .img,.contact-section .img{
+    width: 100%;
+    height: auto;
+    margin-top: 48px;
+}
+.branding .img img,.custome-section .img img,.contact-section .img img{
+    width: 100%;
+}
+.branding .right,.hero-section .left,.custome-section .left,.contact-section .right{
+    width: 100%;
+    align-items: center;
+    padding: 0;
+}
+.branding .right{
+    margin-top: 88px;
+}
+.branding,.hero-section .left h1,.custome-section .left h1,.contact-section .right h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-bottom: 24px;
+}
+.hero-section .left span,.hero-section .left span,.custome-section .left span,.contact-section .right span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #272D38;
+}
+.hero-section img{
+    width: 100%;
+}
+.companies-sector{
+    width: 100%;
+}
+.logo-area{
+    display: flex;
+}
+.logo-area li{
+    width: 25%;
+    padding: 0 10px;
+}
+.logo-area li img{
+    width: 100%;
+    height: 100%;
+}
+.testimonial-section{
+    height: auto;
+}
+.testimonial-section span:nth-child(1){
+    width: 100%;
+}
+.testimonial-section span:nth-child(2){
+    width: 100%;
+    align-items: center;
+    padding: 0%;
+}
+.testimonial-section span:nth-child(3){
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    padding: 10px 20px;
+}
+}
