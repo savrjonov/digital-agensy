@@ -348,8 +348,12 @@ footer .row:nth-child(2){
 }
 .custome-section{
     display:flex;
-    aligin-items:center;
     justify-content:center
+}
+.custome-section .img{
+        width:100%;
+        display:flex;
+        algin-item:center
 }
 .branding .right{
     margin-top: 88px;
