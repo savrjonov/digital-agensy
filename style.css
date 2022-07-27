@@ -351,9 +351,9 @@ footer .row:nth-child(2){
     justify-content:center
 }
 .custome-section .img{
-        width:100%;
-        display:flex;
-        algin-item:center
+    width:100%;
+    display:flex;
+    algin-items:center
 }
 .branding .right{
     margin-top: 88px;
